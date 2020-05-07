@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: "avenir_light";
+	src: url("font/avernir_light.ttf");
+}
+
+@font-face {
+	font-family: "avenir_book";
+	src: url("font/avenir_book.ttf");
+}
+body {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+}
+button{
+	border: none;
+	float: right;
+	background: none;
+}
+.container_left{
+	width: 30%;
+	height: 100vh;
+	border-right: 0.5vw solid black;
+	display: flex;
+	flex-flow: column nowrap;
+	padding: 2vw;
+}
+.left_top{
+	width: 100%;
+	height: 33%;
+	font-family: "avenir_light";
+	font-size: 2.2vh;
+}
+.left_middle{
+	width: 70%;
+	height: 55%;
+	margin: auto auto;
+	text-align: center;
+}
+.left_middle img{
+	width: auto;
+	height: 100%;
+	transition: 1s;
+}
+.left_bottom{
+	margin-top: 5vh;
+	font-family: "avenir_book";
+	font-size: 10vh;
+	width: 100%;
+	height: 10%;
+	line-height: 10vh;
+}
+.container_right{
+	width: 70%;
+	height: 100vh;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+.right1{
+	width: 60%;
+	height: 100vh;
+}
+.right_content{
+	height: 90vh;
+}
+.right_box{
+	width: 20%;
+	height: 35%;
+	float: left;
+	background-size: 100% auto;
+	filter: grayscale(100%);
+}
+.right_box img{
+	width: 100%;
+}
+.right2_box{
+	width: 70vh;
+	height: 70vh;
+	position: relative;
+}
+.right2_box img{
+	width: 100%;
+	position:absolute;
+	left: 0;
+	top: 0;
+}
+.right_bottom img{
+	width: 10vw;
+}
